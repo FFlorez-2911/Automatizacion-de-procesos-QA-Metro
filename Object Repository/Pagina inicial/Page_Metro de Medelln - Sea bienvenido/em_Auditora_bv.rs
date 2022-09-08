@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>em_Auditora_bv</name>
+   <tag></tag>
+   <elementGuidId>70f6a862-1f25-4a2e-a688-19b173a1754a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_Header1_repModulos_ctl03_hypLink > em</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ctl00_Header1_repModulos_ctl03_hypLink']/em</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>em</value>
+      <webElementGuid>f872f3f0-18f3-4537-bfa9-fbce7d508c0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Auditoría</value>
+      <webElementGuid>ae4ad1ad-8c48-4acb-ad83-758244cdfd85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_Header1_repModulos_ctl03_hypLink&quot;)/em[1]</value>
+      <webElementGuid>fbb759c2-972e-4608-9a1d-844fb6c9b2a3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_Header1_repModulos_ctl03_hypLink']/em</value>
+      <webElementGuid>7d89f255-3a9c-4c06-82d3-d466dd2612f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atención'])[1]/following::em[1]</value>
+      <webElementGuid>83d2a316-45e3-47f0-9519-1b1462d75c43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adquisición'])[1]/following::em[2]</value>
+      <webElementGuid>4e4b84ae-5b6a-43ad-8ed3-1439a132a0aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compensación'])[1]/preceding::em[1]</value>
+      <webElementGuid>e2d1a905-6261-4865-b2c1-4beca0b944b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Emisión'])[1]/preceding::em[2]</value>
+      <webElementGuid>5e713326-8f00-48b7-9ad9-7f88bb0f8691</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Auditoría']/parent::*</value>
+      <webElementGuid>a83e81c2-5b77-4fe0-b877-ea03ea1c647d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a/em</value>
+      <webElementGuid>da098fe4-84e1-4546-9e40-6fc93cd13ceb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//em[(text() = 'Auditoría' or . = 'Auditoría')]</value>
+      <webElementGuid>46f5f413-b597-46e3-a585-e8ae1bc1401c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

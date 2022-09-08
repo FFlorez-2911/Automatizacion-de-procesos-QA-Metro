@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Administracin Tarjetas_adq</name>
+   <tag></tag>
+   <elementGuidId>906fccce-81d0-45b2-8531-9f238601523b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_MenuLateral_repLista_ctl00_hypLink</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ctl00_MenuLateral_repLista_ctl00_hypLink']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>849e7f95-6563-487c-9c17-fcd9c1d0fe8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_MenuLateral_repLista_ctl00_hypLink</value>
+      <webElementGuid>251538a6-e232-41b7-a876-d5b9a357775b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>AdministracionTarjetas/</value>
+      <webElementGuid>dd6cf182-e866-459c-8cca-f186794d9709</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Administración Tarjetas</value>
+      <webElementGuid>317c14a3-cc16-49dd-b8f3-53431e6c4697</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_MenuLateral_repLista_ctl00_hypLink&quot;)</value>
+      <webElementGuid>d8f7908d-d259-4377-9854-1ec0b5e44c57</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_MenuLateral_repLista_ctl00_hypLink']</value>
+      <webElementGuid>057145e4-fc01-429e-b146-29272851bb08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='aspnetForm']/div[3]/table/tbody/tr/td/table[4]/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr/td/a</value>
+      <webElementGuid>c81e22b9-95b5-44f9-842c-fe41903d2c0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Administración Tarjetas')]</value>
+      <webElementGuid>f0ef3124-eb29-4153-8c1a-3904c12c47fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguridad'])[1]/following::a[1]</value>
+      <webElementGuid>689cde3d-b105-48b3-b728-86f559908191</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Inventario'])[1]/following::a[2]</value>
+      <webElementGuid>c3bfac71-3b3f-4fe7-ae8e-487937618a0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compusafe'])[1]/preceding::a[1]</value>
+      <webElementGuid>65796089-ced7-4a41-8182-e7a5536be1b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facturación'])[1]/preceding::a[2]</value>
+      <webElementGuid>ec86bb81-5624-4b22-8527-3eb8707a1ffc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Administración Tarjetas']/parent::*</value>
+      <webElementGuid>2b0e6a08-6818-49bf-a4eb-edbc795d9628</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'AdministracionTarjetas/')]</value>
+      <webElementGuid>2fee7b3c-ddfb-4de3-b689-9914fe5dc072</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a</value>
+      <webElementGuid>65983647-0603-4d14-b7bc-e7c2a73c28c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'ctl00_MenuLateral_repLista_ctl00_hypLink' and @href = 'AdministracionTarjetas/' and (text() = 'Administración Tarjetas' or . = 'Administración Tarjetas')]</value>
+      <webElementGuid>d8840d8c-6aee-4954-b7ea-faa397092285</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

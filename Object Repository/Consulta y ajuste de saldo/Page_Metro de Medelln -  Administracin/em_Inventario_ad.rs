@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>em_Inventario_ad</name>
+   <tag></tag>
+   <elementGuidId>df49b3af-52dd-4408-8689-5232fd88721b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_Header1_repModulos_ctl06_hypLink > em</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ctl00_Header1_repModulos_ctl06_hypLink']/em</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>em</value>
+      <webElementGuid>bccfa67f-9127-43ff-ade8-71b937d8b2c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Inventario</value>
+      <webElementGuid>8edf2ad1-2c2e-4313-97df-63d322c467c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_Header1_repModulos_ctl06_hypLink&quot;)/em[1]</value>
+      <webElementGuid>6e394943-34bd-4b9f-a859-bcba94e54cef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_Header1_repModulos_ctl06_hypLink']/em</value>
+      <webElementGuid>86e67963-2198-4cbc-b2d1-57a18b664674</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Emisión'])[1]/following::em[1]</value>
+      <webElementGuid>fd95dcee-b287-483f-960c-5d6b30c007f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compensación'])[1]/following::em[2]</value>
+      <webElementGuid>3187d2b1-8595-4979-a4b7-7cbfe5f36afb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seguridad'])[1]/preceding::em[1]</value>
+      <webElementGuid>7ac87baa-c447-4a1d-befb-b0788f8aad74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cívica Transaccional'])[1]/preceding::em[2]</value>
+      <webElementGuid>4364a2f7-463f-448f-a5c5-0b21a638ff40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Inventario']/parent::*</value>
+      <webElementGuid>56447ed2-98b3-4f48-9a7b-09b96349277b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/a/em</value>
+      <webElementGuid>058fae7e-48df-455a-9aeb-ca0e7ab2541a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//em[(text() = 'Inventario' or . = 'Inventario')]</value>
+      <webElementGuid>2020e7ac-82cb-43f8-a380-807c3969a30f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

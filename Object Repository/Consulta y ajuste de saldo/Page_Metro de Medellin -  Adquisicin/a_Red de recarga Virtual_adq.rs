@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Red de recarga Virtual_adq</name>
+   <tag></tag>
+   <elementGuidId>0ca228fa-5507-491f-9b2d-0bbef6ce8b0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_MenuLateral_repLista_ctl08_hypLink</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ctl00_MenuLateral_repLista_ctl08_hypLink']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7becf5f8-6c3d-46d5-be6b-a11258330e07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_MenuLateral_repLista_ctl08_hypLink</value>
+      <webElementGuid>1e32cd7d-730d-4801-9ab2-5f53e9e0a5b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>RedRecargaVirtual/</value>
+      <webElementGuid>3652ccb2-33e4-45c3-84d4-4b7f53dff97e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Red de recarga Virtual</value>
+      <webElementGuid>3cc9855a-635a-407b-a76a-809254abd5f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_MenuLateral_repLista_ctl08_hypLink&quot;)</value>
+      <webElementGuid>0c63dcbc-cb11-4b3d-9ea6-da5de43b0670</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_MenuLateral_repLista_ctl08_hypLink']</value>
+      <webElementGuid>2fc32662-3ec0-441d-9e90-5166b7780382</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='aspnetForm']/div[3]/table/tbody/tr/td/table[4]/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr[9]/td/a</value>
+      <webElementGuid>3ee1e738-a195-4820-be8f-739fe04b5b28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Red de recarga Virtual')]</value>
+      <webElementGuid>bebc98ae-3a9d-4321-9f6f-118b9a437775</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Red de Recarga Externa'])[1]/following::a[1]</value>
+      <webElementGuid>be003700-fb01-4596-aa01-7cb30f7d1e42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Punto de Venta'])[1]/following::a[2]</value>
+      <webElementGuid>ed98744d-a616-4f94-a036-6e2a7d6e5d85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registros'])[1]/preceding::a[1]</value>
+      <webElementGuid>65458be5-2347-4cd0-b457-6f013d95b00e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reportes'])[1]/preceding::a[2]</value>
+      <webElementGuid>8a954794-36fe-4266-93d5-eb571e631138</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Red de recarga Virtual']/parent::*</value>
+      <webElementGuid>626bab8a-a517-423a-9573-4d87d03d7c09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'RedRecargaVirtual/')]</value>
+      <webElementGuid>8ec7138f-705f-4faa-a7f4-0678691283fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[9]/td/a</value>
+      <webElementGuid>d784ada7-cafe-4431-9ca6-b327e44aea18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'ctl00_MenuLateral_repLista_ctl08_hypLink' and @href = 'RedRecargaVirtual/' and (text() = 'Red de recarga Virtual' or . = 'Red de recarga Virtual')]</value>
+      <webElementGuid>0a6569ff-2c05-4221-ba88-886256c53a77</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

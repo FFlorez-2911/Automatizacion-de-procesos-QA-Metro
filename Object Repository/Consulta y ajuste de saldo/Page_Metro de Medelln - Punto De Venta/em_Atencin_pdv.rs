@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>em_Atencin_pdv</name>
+   <tag></tag>
+   <elementGuidId>3564411e-4620-47a3-973b-5dfc9f2bcccc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_Header1_repModulos_ctl02_hypLink > em</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ctl00_Header1_repModulos_ctl02_hypLink']/em</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>em</value>
+      <webElementGuid>a21c2bc0-0dff-448d-96ea-16c4ed094288</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Atención</value>
+      <webElementGuid>d1157002-da30-4292-bfd0-ac24f88ab077</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_Header1_repModulos_ctl02_hypLink&quot;)/em[1]</value>
+      <webElementGuid>a5ce7131-880f-4aec-9f31-234c8b5dc21f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_Header1_repModulos_ctl02_hypLink']/em</value>
+      <webElementGuid>a92c2dd0-1354-4cd2-ad60-74bbcdb0fa8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Adquisición'])[1]/following::em[1]</value>
+      <webElementGuid>1e4aa4a7-385a-4e33-9a60-a6aadcccc2a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administración'])[1]/following::em[2]</value>
+      <webElementGuid>990bf99c-c585-4d05-91d6-f41ae2cba703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Auditoría'])[1]/preceding::em[1]</value>
+      <webElementGuid>17ea3332-d4f9-43cd-95be-a66e81ec1d20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compensación'])[1]/preceding::em[2]</value>
+      <webElementGuid>d1095806-4690-4e39-b747-91322c4122aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Atención']/parent::*</value>
+      <webElementGuid>26f90127-450e-4947-8557-0c84975698dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/em</value>
+      <webElementGuid>5f0945e7-16aa-4446-9ff8-c58023ab517a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//em[(text() = 'Atención' or . = 'Atención')]</value>
+      <webElementGuid>2fdd2492-f290-4521-99d4-5057c5d130cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

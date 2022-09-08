@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_cpn</name>
+   <tag></tag>
+   <elementGuidId>edcf11bc-482b-4ae3-a35d-9f508fefbfe0</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@onclick=&quot;javascript:SelecionarUsuario('PEDRO','CC 10001000','12147279', 'UNIVIAJE', 'CC 10001000', 'FRECUENTES', '6'
+                                    );&quot;]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@src = '../../images/ico_detalhes.gif']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>915aeefe-04ad-417a-b80f-6afe2b94ace3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>../../images/ico_detalhes.gif</value>
+      <webElementGuid>f3e36140-7164-4325-b822-24da7ba934af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>javascript:SelecionarUsuario('PEDRO','CC 10001000','12147279', 'UNIVIAJE', 'CC 10001000', 'FRECUENTES', '6'
+                                    );</value>
+      <webElementGuid>f2fa5796-27f6-4bb0-9890-251df5209870</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gvUsuarios&quot;)/tbody[1]/tr[@class=&quot;linhaDataGrid&quot;]/td[4]/img[1]</value>
+      <webElementGuid>e31cd5d6-fd1c-4340-9c42-5dcbfa1c6b92</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//img[@onclick=&quot;javascript:SelecionarUsuario('PEDRO','CC 10001000','12147279', 'UNIVIAJE', 'CC 10001000', 'FRECUENTES', '6'
+                                    );&quot;]</value>
+      <webElementGuid>9853b364-ec07-40f0-8c53-0b217a4cfd30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='gvUsuarios']/tbody/tr[2]/td[4]/img</value>
+      <webElementGuid>d503dc53-7009-4a7c-932e-13702cc6fb89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>a077e468-e9a2-4fe9-a787-35e429cd319f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '../../images/ico_detalhes.gif']</value>
+      <webElementGuid>f9afa606-85a5-4de2-a13f-292086ce3ded</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

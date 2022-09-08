@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Extracto PN_atc</name>
+   <tag></tag>
+   <elementGuidId>f58f833d-3528-4891-8fb7-742aaa4baa82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_MenuLateral_repLista_ctl04_repItens_ctl00_hypLinkItem</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ctl00_MenuLateral_repLista_ctl04_repItens_ctl00_hypLinkItem']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>07563b60-d602-4d20-9658-5b4eb553f1a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_MenuLateral_repLista_ctl04_repItens_ctl00_hypLinkItem</value>
+      <webElementGuid>860e30a4-6ac0-45ec-994d-e982e2eeca6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>frmExtractoPN.aspx</value>
+      <webElementGuid>7f070f7d-b592-48c2-a11c-bda57c4eea3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Extracto PN</value>
+      <webElementGuid>18d85a88-a6bb-4f09-a74a-8099c1eb0c42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_MenuLateral_repLista_ctl04_repItens_ctl00_hypLinkItem&quot;)</value>
+      <webElementGuid>a1ecc3c5-50cd-47c0-94ef-cd34bb1cabae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_MenuLateral_repLista_ctl04_repItens_ctl00_hypLinkItem']</value>
+      <webElementGuid>b8f4127b-4bc9-4849-96bc-7478f8958e33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='aspnetForm']/div[3]/table/tbody/tr/td/table[4]/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr[6]/td/a</value>
+      <webElementGuid>4e6345be-0522-46da-8e33-a73459ff4614</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Extracto PN')]</value>
+      <webElementGuid>1c247932-9081-44ac-a9b6-9ca918439924</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Consultas'])[1]/following::a[1]</value>
+      <webElementGuid>91d7c988-2c00-49f7-abae-f0f61a7c7009</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Carga de Dinero en Tarjetas'])[1]/following::a[2]</value>
+      <webElementGuid>857d409a-79d9-4907-a9cb-5ed4d131ea30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Extracto UL'])[1]/preceding::a[1]</value>
+      <webElementGuid>1249a10a-6c0c-45e3-af45-7472b7014a5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Extracto Usuario Cívica'])[1]/preceding::a[2]</value>
+      <webElementGuid>bc838280-d15c-4290-b0cf-1923f05ee994</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Extracto PN']/parent::*</value>
+      <webElementGuid>74e6779e-a4c0-47bf-a4b5-439f9db7b173</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'frmExtractoPN.aspx')]</value>
+      <webElementGuid>e854b659-e045-434f-9462-bfa0b59c5ca8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[6]/td/a</value>
+      <webElementGuid>a53a75e3-1f17-48c6-b9fd-016ae5b1b7cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'ctl00_MenuLateral_repLista_ctl04_repItens_ctl00_hypLinkItem' and @href = 'frmExtractoPN.aspx' and (text() = 'Extracto PN' or . = 'Extracto PN')]</value>
+      <webElementGuid>ef0ac14d-415b-4300-9550-ef3f6d196b6d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

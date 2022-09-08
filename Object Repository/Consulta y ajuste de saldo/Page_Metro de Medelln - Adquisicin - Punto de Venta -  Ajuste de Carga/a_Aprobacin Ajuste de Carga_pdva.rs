@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Aprobacin Ajuste de Carga_pdva</name>
+   <tag></tag>
+   <elementGuidId>253a9026-918f-40a2-b95e-875412161083</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_MenuLateral_repLista_ctl06_repItens_ctl01_hypLinkItem</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ctl00_MenuLateral_repLista_ctl06_repItens_ctl01_hypLinkItem']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9d14f69a-7e24-45a6-9bef-b061e9c71345</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_MenuLateral_repLista_ctl06_repItens_ctl01_hypLinkItem</value>
+      <webElementGuid>d88472e1-37ad-46b1-a626-d074111ec517</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>frmAprobarAjusteCarga.aspx</value>
+      <webElementGuid>fc48012f-a96c-48c9-be13-2c25b059c499</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aprobación Ajuste de Carga</value>
+      <webElementGuid>878d8412-afc3-4db8-b01c-ba104a7f5d31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_MenuLateral_repLista_ctl06_repItens_ctl01_hypLinkItem&quot;)</value>
+      <webElementGuid>96bdff05-58f4-4ac0-89ae-53d4f0893b41</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_MenuLateral_repLista_ctl06_repItens_ctl01_hypLinkItem']</value>
+      <webElementGuid>4073d085-864f-4f9c-aaa5-2ac87fecadd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='aspnetForm']/div[3]/table/tbody/tr/td/table[4]/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr[9]/td/a</value>
+      <webElementGuid>8b89e401-f77d-48bb-84f5-39cb2b4ae482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Aprobación Ajuste de Carga')]</value>
+      <webElementGuid>c8c4ac63-598a-499f-901c-41406179456a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ajuste de Carga'])[1]/following::a[1]</value>
+      <webElementGuid>8932c36c-a5a8-4c4e-901c-54d079c39632</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Punto de Venta'])[1]/following::a[2]</value>
+      <webElementGuid>f1e896b6-c384-41c6-9674-b5fa8713e4be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Autorización'])[1]/preceding::a[1]</value>
+      <webElementGuid>ac225b6e-be8f-468c-9ed7-941fd97ca302</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bases MRA'])[1]/preceding::a[2]</value>
+      <webElementGuid>62154930-e09c-4a1f-961a-bfe063f23415</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Aprobación Ajuste de Carga']/parent::*</value>
+      <webElementGuid>c73bc09e-ad34-4807-a020-61d0125f5d4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'frmAprobarAjusteCarga.aspx')]</value>
+      <webElementGuid>53428280-9beb-46a4-9307-56d500b0cc38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[9]/td/a</value>
+      <webElementGuid>3263c21d-0163-4ec2-b508-999a09e403f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'ctl00_MenuLateral_repLista_ctl06_repItens_ctl01_hypLinkItem' and @href = 'frmAprobarAjusteCarga.aspx' and (text() = 'Aprobación Ajuste de Carga' or . = 'Aprobación Ajuste de Carga')]</value>
+      <webElementGuid>a33792cb-4ab1-463d-9f08-0f707a42133f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

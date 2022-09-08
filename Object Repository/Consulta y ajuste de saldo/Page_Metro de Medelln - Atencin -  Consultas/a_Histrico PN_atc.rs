@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Histrico PN_atc</name>
+   <tag></tag>
+   <elementGuidId>8dc2806c-8729-4ab9-8a5d-08c7159ad1ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_MenuLateral_repLista_ctl04_repItens_ctl03_hypLinkItem</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ctl00_MenuLateral_repLista_ctl04_repItens_ctl03_hypLinkItem']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>decb220d-3fc2-4660-9155-c79dc028de25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ctl00_MenuLateral_repLista_ctl04_repItens_ctl03_hypLinkItem</value>
+      <webElementGuid>6a2aa2b1-2f39-4c5f-bddf-6ce2bdcdff01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>frmHistoricoPN.aspx</value>
+      <webElementGuid>e1123869-42c8-41e8-a9dd-bf6c4ba5d5f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Histórico PN</value>
+      <webElementGuid>9efa69e6-d69d-4921-a906-740937a96385</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_MenuLateral_repLista_ctl04_repItens_ctl03_hypLinkItem&quot;)</value>
+      <webElementGuid>4110b684-72ba-40e3-9ac5-a55a93212e21</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='ctl00_MenuLateral_repLista_ctl04_repItens_ctl03_hypLinkItem']</value>
+      <webElementGuid>2fcfbb65-9e1a-449d-9002-51b1747dd6bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='aspnetForm']/div[3]/table/tbody/tr/td/table[4]/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr[9]/td/a</value>
+      <webElementGuid>c5318dc1-f0de-4513-9f15-b04ae0fa1d95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Histórico PN')]</value>
+      <webElementGuid>678d0ed9-c7e1-4261-b6fd-52be2de3bf74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Extracto Usuario Cívica'])[1]/following::a[1]</value>
+      <webElementGuid>b3e62721-afcb-4e19-9c68-c9229a433968</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Extracto UL'])[1]/following::a[2]</value>
+      <webElementGuid>d5efc550-f373-49fe-8af5-5a49ad1e599c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sugerencia'])[1]/preceding::a[1]</value>
+      <webElementGuid>38bfcec8-c891-4f61-92cc-21ada1b34c02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fidelidad'])[1]/preceding::a[2]</value>
+      <webElementGuid>637bfb10-74e5-41f2-b3b5-15ab0c17b3d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Histórico PN']/parent::*</value>
+      <webElementGuid>9cdfe190-2fd7-4a98-baf8-f8bbc7c231d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'frmHistoricoPN.aspx')]</value>
+      <webElementGuid>ceeb5e68-5759-4a6e-91ab-7b59c2c1839a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[9]/td/a</value>
+      <webElementGuid>378fabc7-5caf-4f03-860c-998f89c79bbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'ctl00_MenuLateral_repLista_ctl04_repItens_ctl03_hypLinkItem' and @href = 'frmHistoricoPN.aspx' and (text() = 'Histórico PN' or . = 'Histórico PN')]</value>
+      <webElementGuid>91ae0500-0f29-448a-b002-ca6e528d3a96</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

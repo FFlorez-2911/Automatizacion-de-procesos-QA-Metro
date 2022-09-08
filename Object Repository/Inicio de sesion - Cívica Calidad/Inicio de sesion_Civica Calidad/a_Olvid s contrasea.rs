@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Olvid s contrasea</name>
+   <tag></tag>
+   <elementGuidId>a6281a91-967a-4a0d-b474-55b869cf311b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#lkbReexClave</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='lkbReexClave']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>32a02194-832c-4ddd-a84c-d9dab7cd9a90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>lkbReexClave</value>
+      <webElementGuid>120af17f-6a74-4178-935c-f094d5a22871</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:__doPostBack('lkbReexClave','')</value>
+      <webElementGuid>ffa39721-838e-4220-8959-0d465a4f8fb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>¿Olvidó sú contraseña?</value>
+      <webElementGuid>b1a2a7c5-e4d7-4d90-ae12-6d61b2758358</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lkbReexClave&quot;)</value>
+      <webElementGuid>d84f3ba1-6c93-4ba2-a899-343b4a1ef97e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='lkbReexClave']</value>
+      <webElementGuid>4415f0a0-4a5a-4dd2-a479-4f121bbf454f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tbLogin']/tbody/tr[5]/td/a</value>
+      <webElementGuid>05b0f746-ff86-44b7-b357-8cc1b864e04d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'¿Olvidó sú contraseña?')]</value>
+      <webElementGuid>ef48d945-6826-47b5-be81-6c28bf076b28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contraseña'])[1]/following::a[1]</value>
+      <webElementGuid>5c3b3f54-9a9f-499d-aa84-7fea90f43b4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cédula usuario'])[1]/following::a[1]</value>
+      <webElementGuid>465390b9-c40e-406f-aa16-c08034ec6e81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Versión : 3.9.26.12'])[1]/preceding::a[2]</value>
+      <webElementGuid>11aa32bc-01e5-401e-b42d-aa896945a431</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmación de Datos'])[1]/preceding::a[2]</value>
+      <webElementGuid>089bf14a-27b4-49af-9d08-8a0662d8ed47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='¿Olvidó sú contraseña?']/parent::*</value>
+      <webElementGuid>03309ba2-be3e-40e0-870a-7c3445927099</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, &quot;javascript:__doPostBack('lkbReexClave','')&quot;)]</value>
+      <webElementGuid>93c3f17f-0998-415f-a2db-8ba1c7e838a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>714a591a-1a86-408d-a58b-2f915e35c1c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@id = 'lkbReexClave' and @href = concat(&quot;javascript:__doPostBack(&quot; , &quot;'&quot; , &quot;lkbReexClave&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = '¿Olvidó sú contraseña?' or . = '¿Olvidó sú contraseña?')]</value>
+      <webElementGuid>ff3cb670-c9c8-4fa7-9c10-2428b0fc06db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
