@@ -3,9 +3,10 @@
    <description></description>
    <name>Automatizacion-de-procesos-QA-Metro</name>
    <tag></tag>
-   <UUID>87728fc6-2683-451f-9eb1-301cfdb93ff2</UUID>
+   <UUID>d4f0ceb4-0f43-4f0e-850a-d2b983b66e09</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\feflorez\git\Automatizacion-de-procesos-QA-Metro\Automatizacion-de-procesos-QA-Metro.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -25,5 +26,5 @@
       </systemFolderList>
    </sourceContent>
    <timeStampInProperties>false</timeStampInProperties>
-   <type>GENERIC</type>
+   <type>WEBUI</type>
 </Project>
