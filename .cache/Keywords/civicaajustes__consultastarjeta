@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "5B4A3B40960F003CB6DFE513C2407DD7",
+  "keywordClasses": [
+    {
+      "name": "civicaajustes.consultastarjeta",
+      "keywordMethods": [
+        {
+          "name": "consultas",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

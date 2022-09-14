@@ -52,7 +52,7 @@ WebUI.click(findTestObject('Consulta y ajuste de saldo/Page_Metro de Medelln - A
 WebUI.focus(findTestObject('Consulta y ajuste de saldo/Page_Metro de Medelln - Atencin - ConsExtraUsuPersNat/input__ctl00ContentPlaceHolder1txtTarjeta_atcex'))
 
 WebUI.setText(findTestObject('Consulta y ajuste de saldo/Page_Metro de Medelln - Atencin - ConsExtraUsuPersNat/input__ctl00ContentPlaceHolder1txtTarjeta_atcex'), 
-    '8516018')
+    '3456920')
 
 WebUI.click(findTestObject('Consulta y ajuste de saldo/Page_Metro de Medelln - Atencin - ConsExtraUsuPersNat/input__ctl00ContentPlaceHolder1btnBuscar_atcex'))
 
@@ -90,7 +90,7 @@ WebUI.switchToWindowUrl('https://qabanco.civica.com.co/Civica/Usuarios/Registros
 WebUI.focus(findTestObject('Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn'))
 
 WebUI.setText(findTestObject('Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn'), 
-    '8516018')
+    '3456920')
 
 WebUI.click(findTestObject('Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn'))
 
@@ -166,4 +166,8 @@ WebUI.check(findTestObject('Consulta y ajuste de saldo/Page_Metro de Medelln - A
 WebUI.click(findTestObject('Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa'))
 
 WebUI.acceptAlert()
+
+WebUI.delay(2)
+
+WebUI.closeBrowser()
 
