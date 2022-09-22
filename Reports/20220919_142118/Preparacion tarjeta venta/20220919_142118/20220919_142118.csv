@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Preparacion tarjeta venta,,,,2022-09-19 14:21:40,2022-09-19 14:22:17,"37,019s",FAILED
+,,,,,,,
+Test Cases/Preparacion tarjeta venta,,,,2022-09-19 14:22:14,2022-09-19 14:22:17,"3,774s",FAILED
+"openBrowser(""https://qabanco.civica.com.co/civica/index.aspx"")",,,,2022-09-19 14:22:14,2022-09-19 14:22:17,"3,710s",FAILED
