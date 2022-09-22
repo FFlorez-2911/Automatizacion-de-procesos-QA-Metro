@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Ajuste Credito" time="382.725" tests="3" failures="0" errors="0">
+   <testsuite name="Ajuste Credito" tests="3" failures="0" errors="0" time="382.725" skipped="0" timestamp="2022-09-22 14:16:34" hostname="feflorez - UENOP029.metrodemedellin.gov.co" id="Test Suites/Ajuste Credito">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\feflorez\\git\\Automatizacion-de-procesos-QA-Metro\\Reports\\20220922_141618\\Ajuste Credito\\20220922_141618"/>
+         <property name="logFiles" value="C:\\Users\\feflorez\\git\\Automatizacion-de-procesos-QA-Metro\\Reports\\20220922_141618\\Ajuste Credito\\20220922_141618\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\feflorez\\git\\Automatizacion-de-procesos-QA-Metro\\Reports\\20220922_141618\\Ajuste Credito\\20220922_141618\\1663874501669.png, C:\\Users\\feflorez\\git\\Automatizacion-de-procesos-QA-Metro\\Reports\\20220922_141618\\Ajuste Credito\\20220922_141618\\1663874502342.png"/>
+         <property name="hostName" value="feflorez - UENOP029.metrodemedellin.gov.co"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 105.0.0.0"/>
+         <property name="hostAddress" value="172.23.20.156"/>
+         <property name="sessionId" value="03cba7808247e9cbe8bd008b596c804f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Ajuste credito - 10000" time="123.39" classname="Test Cases/Ajuste credito - 10000" status="PASSED">
+         <system-out><![CDATA[2022-09-22 14:16:35 - [TEST_CASE][PASSED] - Test Cases/Ajuste credito - 10000: Test Cases/Ajuste credito - 10000
+
+2022-09-22 14:16:36 - [TEST_STEP][PASSED] - openBrowser("https://qabanco.civica.com.co/civica/index.aspx"): Browser is opened with url: 'https://qabanco.civica.com.co/civica/index.aspx'
+
+2022-09-22 14:16:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-22 14:16:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-22 14:17:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qabanco.civica.com.co/civica/index.aspx'
+
+2022-09-22 14:17:14 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:17:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:17:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-22 14:17:16 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-22 14:17:16 - [TEST_STEP][PASSED] - focus(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin")): Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin' is focused
+
+2022-09-22 14:17:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin' is focused
+
+2022-09-22 14:17:19 - [TEST_STEP][PASSED] - setText(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin"), findTestData("Usuarios/Usuarios login").getValue(1, 1)): Text '1028015407' is set on object 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin'
+
+2022-09-22 14:17:27 - [MESSAGE][PASSED] - Text '1028015407' is set on object 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin'
+
+2022-09-22 14:17:27 - [TEST_STEP][PASSED] - focus(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena")): Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena' is focused
+
+2022-09-22 14:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena' is focused
+
+2022-09-22 14:17:28 - [TEST_STEP][PASSED] - setText(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena"), findTestData("Usuarios/Usuarios login").getValue(2, 1)): Text '12345678' is set on object 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena'
+
+2022-09-22 14:17:29 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena'
+
+2022-09-22 14:17:29 - [TEST_STEP][PASSED] - click(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_btnOk")): Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_btnOk' is clicked on
+
+2022-09-22 14:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_btnOk' is clicked on
+
+2022-09-22 14:17:36 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:17:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:17:36 - [TEST_STEP][PASSED] - click(findTestObject("Pagina inicial/Page_Metro de Medelln - Sea bienvenido/em_Adquisicin_bv")): Object: 'Object Repository/Pagina inicial/Page_Metro de Medelln - Sea bienvenido/em_Adquisicin_bv' is clicked on
+
+2022-09-22 14:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Pagina inicial/Page_Metro de Medelln - Sea bienvenido/em_Adquisicin_bv' is clicked on
+
+2022-09-22 14:17:37 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:17:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medellin -  Adquisicin/a_Punto de Venta_adq")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medellin -  Adquisicin/a_Punto de Venta_adq' is clicked on
+
+2022-09-22 14:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medellin -  Adquisicin/a_Punto de Venta_adq' is clicked on
+
+2022-09-22 14:17:38 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:17:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:17:38 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Ajuste de Carga_pdva")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Ajuste de Carga_pdva' is clicked on
+
+2022-09-22 14:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Ajuste de Carga_pdva' is clicked on
+
+2022-09-22 14:17:40 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:17:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:17:40 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Nuevo Registro_pdva")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Nuevo Registro_pdva' is clicked on
+
+2022-09-22 14:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Nuevo Registro_pdva' is clicked on
+
+2022-09-22 14:17:41 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:17:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:17:43 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Apellidos_ctl00ContentPlaceHolder1btnBuscarUsu_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Apellidos_ctl00ContentPlaceHolder1btnBuscarUsu_pdvab' is clicked on
+
+2022-09-22 14:17:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Apellidos_ctl00ContentPlaceHolder1btnBuscarUsu_pdvab' is clicked on
+
+2022-09-22 14:17:47 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:17:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:17:47 - [TEST_STEP][PASSED] - switchToWindowUrl("https://qabanco.civica.com.co/Civica/Usuarios/Registros/frmUsuariosPNTarjetaPopup.aspx?nombre=&cedula=&tarjeta="): Switched to window with url: 'https://qabanco.civica.com.co/Civica/Usuarios/Registros/frmUsuariosPNTarjetaPopup.aspx?nombre=&cedula=&tarjeta='
+
+2022-09-22 14:17:47 - [MESSAGE][PASSED] - Switched to window with url: 'https://qabanco.civica.com.co/Civica/Usuarios/Registros/frmUsuariosPNTarjetaPopup.aspx?nombre=&cedula=&tarjeta='
+
+2022-09-22 14:17:47 - [TEST_STEP][PASSED] - focus(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn' is focused
+
+2022-09-22 14:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn' is focused
+
+2022-09-22 14:17:48 - [TEST_STEP][PASSED] - setText(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn"), "1267161"): Text '1267161' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn'
+
+2022-09-22 14:17:49 - [MESSAGE][PASSED] - Text '1267161' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn'
+
+2022-09-22 14:17:49 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn' is clicked on
+
+2022-09-22 14:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn' is clicked on
+
+2022-09-22 14:17:53 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/img_cpn")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/img_cpn' is clicked on
+
+2022-09-22 14:17:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/img_cpn' is clicked on
+
+2022-09-22 14:17:54 - [TEST_STEP][PASSED] - switchToWindowUrl("https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx"): Switched to window with url: 'https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx'
+
+2022-09-22 14:17:54 - [MESSAGE][PASSED] - Switched to window with url: 'https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx'
+
+2022-09-22 14:17:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_MedeMe - Adqcion - PdV -  Ajuste credito/Chechk credito")): Object: 'Object Repository/Page_MedeMe - Adqcion - PdV -  Ajuste credito/Chechk credito' is clicked on
+
+2022-09-22 14:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MedeMe - Adqcion - PdV -  Ajuste credito/Chechk credito' is clicked on
+
+2022-09-22 14:17:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-09-22 14:17:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-09-22 14:17:57 - [TEST_STEP][PASSED] - focus(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab' is focused
+
+2022-09-22 14:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab' is focused
+
+2022-09-22 14:17:57 - [TEST_STEP][PASSED] - setText(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab"), "10000"): Text '10000' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab'
+
+2022-09-22 14:17:58 - [MESSAGE][PASSED] - Text '10000' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab'
+
+2022-09-22 14:17:58 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab' is clicked on
+
+2022-09-22 14:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab' is clicked on
+
+2022-09-22 14:17:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab'
+
+2022-09-22 14:17:59 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab'
+
+2022-09-22 14:17:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab'
+
+2022-09-22 14:18:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab'
+
+2022-09-22 14:18:00 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab' is clicked on
+
+2022-09-22 14:18:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab' is clicked on
+
+2022-09-22 14:18:02 - [TEST_STEP][PASSED] - setText(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab"), "Prueba venta de tarjetas"): Text 'Prueba venta de tarjetas' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab'
+
+2022-09-22 14:18:03 - [MESSAGE][PASSED] - Text 'Prueba venta de tarjetas' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab'
+
+2022-09-22 14:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Operador Modificacin_ctl00ContentPlaceHolder1btnConfirmar_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Operador Modificacin_ctl00ContentPlaceHolder1btnConfirmar_pdvab' is clicked on
+
+2022-09-22 14:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Operador Modificacin_ctl00ContentPlaceHolder1btnConfirmar_pdvab' is clicked on
+
+2022-09-22 14:18:06 - [TEST_STEP][PASSED] - switchToWindowUrl("https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx"): Switched to window with url: 'https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx'
+
+2022-09-22 14:18:06 - [MESSAGE][PASSED] - Switched to window with url: 'https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx'
+
+2022-09-22 14:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  Mensaje/input_Operacin efectuada con xito_btnOk_cpn")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  Mensaje/input_Operacin efectuada con xito_btnOk_cpn' is clicked on
+
+2022-09-22 14:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  Mensaje/input_Operacin efectuada con xito_btnOk_cpn' is clicked on
+
+2022-09-22 14:18:07 - [TEST_STEP][PASSED] - switchToWindowUrl("https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx?Cod=0"): Switched to window with url: 'https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx?Cod=0'
+
+2022-09-22 14:18:08 - [MESSAGE][PASSED] - Switched to window with url: 'https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx?Cod=0'
+
+2022-09-22 14:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/a_Aprobacin Ajuste de Carga_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/a_Aprobacin Ajuste de Carga_pdvab' is clicked on
+
+2022-09-22 14:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/a_Aprobacin Ajuste de Carga_pdvab' is clicked on
+
+2022-09-22 14:18:10 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa' is clicked on
+
+2022-09-22 14:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa' is clicked on
+
+2022-09-22 14:18:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:18:12 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:18:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:18:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:18:13 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:18:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:18:16 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:18:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:18:16 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:18:18 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:18:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:18:18 - [TEST_STEP][PASSED] - check(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos")): Object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos' is checked
+
+2022-09-22 14:18:20 - [MESSAGE][PASSED] - Object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos' is checked
+
+2022-09-22 14:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa' is clicked on
+
+2022-09-22 14:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa' is clicked on
+
+2022-09-22 14:18:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-09-22 14:18:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-09-22 14:18:24 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa' is clicked on
+
+2022-09-22 14:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa' is clicked on
+
+2022-09-22 14:18:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:18:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:18:26 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:18:27 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:18:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:18:28 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:18:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:18:28 - [TEST_STEP][PASSED] - check(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos")): Object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos' is checked
+
+2022-09-22 14:18:29 - [MESSAGE][PASSED] - Object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos' is checked
+
+2022-09-22 14:18:29 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa' is clicked on
+
+2022-09-22 14:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa' is clicked on
+
+2022-09-22 14:18:29 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2022-09-22 14:18:30 - [MESSAGE][PASSED] - Alert accepted
+
+2022-09-22 14:18:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-09-22 14:18:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-09-22 14:18:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-09-22 14:18:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ajuste credito - 20000" time="92.564" classname="Test Cases/Ajuste credito - 20000" status="PASSED">
+         <system-out><![CDATA[2022-09-22 14:18:38 - [TEST_CASE][PASSED] - Test Cases/Ajuste credito - 20000: Test Cases/Ajuste credito - 20000
+
+2022-09-22 14:18:39 - [TEST_STEP][PASSED] - openBrowser("https://qabanco.civica.com.co/civica/index.aspx"): Browser is opened with url: 'https://qabanco.civica.com.co/civica/index.aspx'
+
+2022-09-22 14:18:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-22 14:18:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-22 14:18:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qabanco.civica.com.co/civica/index.aspx'
+
+2022-09-22 14:18:54 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:18:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:18:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-22 14:18:54 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-22 14:18:54 - [TEST_STEP][PASSED] - focus(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin")): Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin' is focused
+
+2022-09-22 14:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin' is focused
+
+2022-09-22 14:18:55 - [TEST_STEP][PASSED] - setText(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin"), findTestData("Usuarios/Usuarios login").getValue(1, 1)): Text '1028015407' is set on object 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin'
+
+2022-09-22 14:18:56 - [MESSAGE][PASSED] - Text '1028015407' is set on object 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin'
+
+2022-09-22 14:18:56 - [TEST_STEP][PASSED] - focus(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena")): Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena' is focused
+
+2022-09-22 14:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena' is focused
+
+2022-09-22 14:18:57 - [TEST_STEP][PASSED] - setText(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena"), findTestData("Usuarios/Usuarios login").getValue(2, 1)): Text '12345678' is set on object 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena'
+
+2022-09-22 14:18:58 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena'
+
+2022-09-22 14:18:58 - [TEST_STEP][PASSED] - click(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_btnOk")): Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_btnOk' is clicked on
+
+2022-09-22 14:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_btnOk' is clicked on
+
+2022-09-22 14:19:06 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:19:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:19:07 - [TEST_STEP][PASSED] - click(findTestObject("Pagina inicial/Page_Metro de Medelln - Sea bienvenido/em_Adquisicin_bv")): Object: 'Object Repository/Pagina inicial/Page_Metro de Medelln - Sea bienvenido/em_Adquisicin_bv' is clicked on
+
+2022-09-22 14:19:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Pagina inicial/Page_Metro de Medelln - Sea bienvenido/em_Adquisicin_bv' is clicked on
+
+2022-09-22 14:19:09 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:19:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:19:09 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medellin -  Adquisicin/a_Punto de Venta_adq")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medellin -  Adquisicin/a_Punto de Venta_adq' is clicked on
+
+2022-09-22 14:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medellin -  Adquisicin/a_Punto de Venta_adq' is clicked on
+
+2022-09-22 14:19:10 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:19:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:19:10 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Ajuste de Carga_pdva")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Ajuste de Carga_pdva' is clicked on
+
+2022-09-22 14:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Ajuste de Carga_pdva' is clicked on
+
+2022-09-22 14:19:16 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:19:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:19:16 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Nuevo Registro_pdva")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Nuevo Registro_pdva' is clicked on
+
+2022-09-22 14:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Nuevo Registro_pdva' is clicked on
+
+2022-09-22 14:19:18 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:19:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:19:18 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Apellidos_ctl00ContentPlaceHolder1btnBuscarUsu_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Apellidos_ctl00ContentPlaceHolder1btnBuscarUsu_pdvab' is clicked on
+
+2022-09-22 14:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Apellidos_ctl00ContentPlaceHolder1btnBuscarUsu_pdvab' is clicked on
+
+2022-09-22 14:19:23 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:19:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:19:23 - [TEST_STEP][PASSED] - switchToWindowUrl("https://qabanco.civica.com.co/Civica/Usuarios/Registros/frmUsuariosPNTarjetaPopup.aspx?nombre=&cedula=&tarjeta="): Switched to window with url: 'https://qabanco.civica.com.co/Civica/Usuarios/Registros/frmUsuariosPNTarjetaPopup.aspx?nombre=&cedula=&tarjeta='
+
+2022-09-22 14:19:23 - [MESSAGE][PASSED] - Switched to window with url: 'https://qabanco.civica.com.co/Civica/Usuarios/Registros/frmUsuariosPNTarjetaPopup.aspx?nombre=&cedula=&tarjeta='
+
+2022-09-22 14:19:23 - [TEST_STEP][PASSED] - focus(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn' is focused
+
+2022-09-22 14:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn' is focused
+
+2022-09-22 14:19:24 - [TEST_STEP][PASSED] - setText(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn"), "8516299"): Text '8516299' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn'
+
+2022-09-22 14:19:25 - [MESSAGE][PASSED] - Text '8516299' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn'
+
+2022-09-22 14:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn' is clicked on
+
+2022-09-22 14:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn' is clicked on
+
+2022-09-22 14:19:33 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/img_cpn")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/img_cpn' is clicked on
+
+2022-09-22 14:19:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/img_cpn' is clicked on
+
+2022-09-22 14:19:34 - [TEST_STEP][PASSED] - switchToWindowUrl("https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx"): Switched to window with url: 'https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx'
+
+2022-09-22 14:19:34 - [MESSAGE][PASSED] - Switched to window with url: 'https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx'
+
+2022-09-22 14:19:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_MedeMe - Adqcion - PdV -  Ajuste credito/Chechk credito")): Object: 'Object Repository/Page_MedeMe - Adqcion - PdV -  Ajuste credito/Chechk credito' is clicked on
+
+2022-09-22 14:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MedeMe - Adqcion - PdV -  Ajuste credito/Chechk credito' is clicked on
+
+2022-09-22 14:19:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-09-22 14:19:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-09-22 14:19:37 - [TEST_STEP][PASSED] - focus(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab' is focused
+
+2022-09-22 14:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab' is focused
+
+2022-09-22 14:19:37 - [TEST_STEP][PASSED] - setText(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab"), "20000"): Text '20000' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab'
+
+2022-09-22 14:19:38 - [MESSAGE][PASSED] - Text '20000' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab'
+
+2022-09-22 14:19:38 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab' is clicked on
+
+2022-09-22 14:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab' is clicked on
+
+2022-09-22 14:19:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab'
+
+2022-09-22 14:19:39 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab'
+
+2022-09-22 14:19:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab'
+
+2022-09-22 14:19:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab'
+
+2022-09-22 14:19:40 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab' is clicked on
+
+2022-09-22 14:19:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab' is clicked on
+
+2022-09-22 14:19:41 - [TEST_STEP][PASSED] - setText(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab"), "Prueba venta de tarjetas"): Text 'Prueba venta de tarjetas' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab'
+
+2022-09-22 14:19:42 - [MESSAGE][PASSED] - Text 'Prueba venta de tarjetas' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab'
+
+2022-09-22 14:19:42 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Operador Modificacin_ctl00ContentPlaceHolder1btnConfirmar_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Operador Modificacin_ctl00ContentPlaceHolder1btnConfirmar_pdvab' is clicked on
+
+2022-09-22 14:19:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Operador Modificacin_ctl00ContentPlaceHolder1btnConfirmar_pdvab' is clicked on
+
+2022-09-22 14:19:45 - [TEST_STEP][PASSED] - switchToWindowUrl("https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx"): Switched to window with url: 'https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx'
+
+2022-09-22 14:19:47 - [MESSAGE][PASSED] - Switched to window with url: 'https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx'
+
+2022-09-22 14:19:47 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  Mensaje/input_Operacin efectuada con xito_btnOk_cpn")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  Mensaje/input_Operacin efectuada con xito_btnOk_cpn' is clicked on
+
+2022-09-22 14:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  Mensaje/input_Operacin efectuada con xito_btnOk_cpn' is clicked on
+
+2022-09-22 14:19:48 - [TEST_STEP][PASSED] - switchToWindowUrl("https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx?Cod=0"): Switched to window with url: 'https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx?Cod=0'
+
+2022-09-22 14:19:48 - [MESSAGE][PASSED] - Switched to window with url: 'https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx?Cod=0'
+
+2022-09-22 14:19:48 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/a_Aprobacin Ajuste de Carga_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/a_Aprobacin Ajuste de Carga_pdvab' is clicked on
+
+2022-09-22 14:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/a_Aprobacin Ajuste de Carga_pdvab' is clicked on
+
+2022-09-22 14:19:50 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa' is clicked on
+
+2022-09-22 14:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa' is clicked on
+
+2022-09-22 14:19:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:19:51 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:19:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:19:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:19:52 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:19:53 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:19:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:19:53 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:19:55 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:19:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:19:55 - [TEST_STEP][PASSED] - check(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos")): Object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos' is checked
+
+2022-09-22 14:19:55 - [MESSAGE][PASSED] - Object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos' is checked
+
+2022-09-22 14:19:55 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa' is clicked on
+
+2022-09-22 14:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa' is clicked on
+
+2022-09-22 14:19:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-09-22 14:19:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-09-22 14:19:58 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa' is clicked on
+
+2022-09-22 14:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa' is clicked on
+
+2022-09-22 14:19:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:19:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:19:59 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:20:00 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:20:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:20:00 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:20:02 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:20:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:20:02 - [TEST_STEP][PASSED] - check(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos")): Object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos' is checked
+
+2022-09-22 14:20:02 - [MESSAGE][PASSED] - Object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos' is checked
+
+2022-09-22 14:20:02 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa' is clicked on
+
+2022-09-22 14:20:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa' is clicked on
+
+2022-09-22 14:20:03 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2022-09-22 14:20:03 - [MESSAGE][PASSED] - Alert accepted
+
+2022-09-22 14:20:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-09-22 14:20:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-09-22 14:20:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-09-22 14:20:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ajuste credito - 50000" time="74.64" classname="Test Cases/Ajuste credito - 50000" status="PASSED">
+         <system-out><![CDATA[2022-09-22 14:21:42 - [TEST_CASE][PASSED] - Test Cases/Ajuste credito - 50000: Test Cases/Ajuste credito - 50000
+
+2022-09-22 14:21:42 - [TEST_STEP][PASSED] - openBrowser("https://qabanco.civica.com.co/civica/index.aspx"): Browser is opened with url: 'https://qabanco.civica.com.co/civica/index.aspx'
+
+2022-09-22 14:21:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-09-22 14:21:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-22 14:21:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-22 14:22:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://qabanco.civica.com.co/civica/index.aspx'
+
+2022-09-22 14:22:00 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:22:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:22:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-09-22 14:22:01 - [MESSAGE][PASSED] - Current window maximized
+
+2022-09-22 14:22:01 - [TEST_STEP][PASSED] - focus(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin")): Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin' is focused
+
+2022-09-22 14:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin' is focused
+
+2022-09-22 14:22:01 - [TEST_STEP][PASSED] - setText(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin"), findTestData("Usuarios/Usuarios login").getValue(1, 1)): Text '1028015407' is set on object 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin'
+
+2022-09-22 14:22:02 - [MESSAGE][PASSED] - Text '1028015407' is set on object 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin'
+
+2022-09-22 14:22:02 - [TEST_STEP][PASSED] - focus(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena")): Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena' is focused
+
+2022-09-22 14:22:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena' is focused
+
+2022-09-22 14:22:03 - [TEST_STEP][PASSED] - setText(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena"), findTestData("Usuarios/Usuarios login").getValue(2, 1)): Text '12345678' is set on object 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena'
+
+2022-09-22 14:22:04 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena'
+
+2022-09-22 14:22:04 - [TEST_STEP][PASSED] - click(findTestObject("Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_btnOk")): Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_btnOk' is clicked on
+
+2022-09-22 14:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_btnOk' is clicked on
+
+2022-09-22 14:22:12 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:22:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:22:12 - [TEST_STEP][PASSED] - click(findTestObject("Pagina inicial/Page_Metro de Medelln - Sea bienvenido/em_Adquisicin_bv")): Object: 'Object Repository/Pagina inicial/Page_Metro de Medelln - Sea bienvenido/em_Adquisicin_bv' is clicked on
+
+2022-09-22 14:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Pagina inicial/Page_Metro de Medelln - Sea bienvenido/em_Adquisicin_bv' is clicked on
+
+2022-09-22 14:22:13 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:22:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:22:13 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medellin -  Adquisicin/a_Punto de Venta_adq")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medellin -  Adquisicin/a_Punto de Venta_adq' is clicked on
+
+2022-09-22 14:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medellin -  Adquisicin/a_Punto de Venta_adq' is clicked on
+
+2022-09-22 14:22:14 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:22:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:22:14 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Ajuste de Carga_pdva")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Ajuste de Carga_pdva' is clicked on
+
+2022-09-22 14:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Ajuste de Carga_pdva' is clicked on
+
+2022-09-22 14:22:16 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:22:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:22:16 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Nuevo Registro_pdva")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Nuevo Registro_pdva' is clicked on
+
+2022-09-22 14:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Nuevo Registro_pdva' is clicked on
+
+2022-09-22 14:22:18 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:22:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:22:18 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Apellidos_ctl00ContentPlaceHolder1btnBuscarUsu_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Apellidos_ctl00ContentPlaceHolder1btnBuscarUsu_pdvab' is clicked on
+
+2022-09-22 14:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Apellidos_ctl00ContentPlaceHolder1btnBuscarUsu_pdvab' is clicked on
+
+2022-09-22 14:22:21 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:22:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:22:21 - [TEST_STEP][PASSED] - switchToWindowUrl("https://qabanco.civica.com.co/Civica/Usuarios/Registros/frmUsuariosPNTarjetaPopup.aspx?nombre=&cedula=&tarjeta="): Switched to window with url: 'https://qabanco.civica.com.co/Civica/Usuarios/Registros/frmUsuariosPNTarjetaPopup.aspx?nombre=&cedula=&tarjeta='
+
+2022-09-22 14:22:21 - [MESSAGE][PASSED] - Switched to window with url: 'https://qabanco.civica.com.co/Civica/Usuarios/Registros/frmUsuariosPNTarjetaPopup.aspx?nombre=&cedula=&tarjeta='
+
+2022-09-22 14:22:21 - [TEST_STEP][PASSED] - focus(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn' is focused
+
+2022-09-22 14:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn' is focused
+
+2022-09-22 14:22:22 - [TEST_STEP][PASSED] - setText(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn"), "1267657"): Text '1267657' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn'
+
+2022-09-22 14:22:23 - [MESSAGE][PASSED] - Text '1267657' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn'
+
+2022-09-22 14:22:23 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn' is clicked on
+
+2022-09-22 14:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn' is clicked on
+
+2022-09-22 14:22:24 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/img_cpn")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/img_cpn' is clicked on
+
+2022-09-22 14:22:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/img_cpn' is clicked on
+
+2022-09-22 14:22:24 - [TEST_STEP][PASSED] - switchToWindowUrl("https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx"): Switched to window with url: 'https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx'
+
+2022-09-22 14:22:24 - [MESSAGE][PASSED] - Switched to window with url: 'https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx'
+
+2022-09-22 14:22:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_MedeMe - Adqcion - PdV -  Ajuste credito/Chechk credito")): Object: 'Object Repository/Page_MedeMe - Adqcion - PdV -  Ajuste credito/Chechk credito' is clicked on
+
+2022-09-22 14:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MedeMe - Adqcion - PdV -  Ajuste credito/Chechk credito' is clicked on
+
+2022-09-22 14:22:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-09-22 14:22:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-09-22 14:22:27 - [TEST_STEP][PASSED] - focus(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab' is focused
+
+2022-09-22 14:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab' is focused
+
+2022-09-22 14:22:27 - [TEST_STEP][PASSED] - setText(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab"), "50000"): Text '50000' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab'
+
+2022-09-22 14:22:28 - [MESSAGE][PASSED] - Text '50000' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab'
+
+2022-09-22 14:22:28 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab' is clicked on
+
+2022-09-22 14:22:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab' is clicked on
+
+2022-09-22 14:22:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab'
+
+2022-09-22 14:22:29 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab'
+
+2022-09-22 14:22:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab'
+
+2022-09-22 14:22:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab'
+
+2022-09-22 14:22:30 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab' is clicked on
+
+2022-09-22 14:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab' is clicked on
+
+2022-09-22 14:22:31 - [TEST_STEP][PASSED] - setText(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab"), "Prueba venta de tarjetas"): Text 'Prueba venta de tarjetas' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab'
+
+2022-09-22 14:22:32 - [MESSAGE][PASSED] - Text 'Prueba venta de tarjetas' is set on object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab'
+
+2022-09-22 14:22:32 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Operador Modificacin_ctl00ContentPlaceHolder1btnConfirmar_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Operador Modificacin_ctl00ContentPlaceHolder1btnConfirmar_pdvab' is clicked on
+
+2022-09-22 14:22:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Operador Modificacin_ctl00ContentPlaceHolder1btnConfirmar_pdvab' is clicked on
+
+2022-09-22 14:22:35 - [TEST_STEP][PASSED] - switchToWindowUrl("https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx"): Switched to window with url: 'https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx'
+
+2022-09-22 14:22:35 - [MESSAGE][PASSED] - Switched to window with url: 'https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx'
+
+2022-09-22 14:22:35 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro Medelln -  Mensaje/input_Operacin efectuada con xito_btnOk_cpn")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  Mensaje/input_Operacin efectuada con xito_btnOk_cpn' is clicked on
+
+2022-09-22 14:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro Medelln -  Mensaje/input_Operacin efectuada con xito_btnOk_cpn' is clicked on
+
+2022-09-22 14:22:36 - [TEST_STEP][PASSED] - switchToWindowUrl("https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx?Cod=0"): Switched to window with url: 'https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx?Cod=0'
+
+2022-09-22 14:22:36 - [MESSAGE][PASSED] - Switched to window with url: 'https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx?Cod=0'
+
+2022-09-22 14:22:36 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/a_Aprobacin Ajuste de Carga_pdvab")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/a_Aprobacin Ajuste de Carga_pdvab' is clicked on
+
+2022-09-22 14:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/a_Aprobacin Ajuste de Carga_pdvab' is clicked on
+
+2022-09-22 14:22:38 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa' is clicked on
+
+2022-09-22 14:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa' is clicked on
+
+2022-09-22 14:22:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa"), Keys.chord(ARROW_DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:22:39 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:22:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:22:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:22:39 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:22:41 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:22:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:22:41 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:22:42 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:22:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:22:43 - [TEST_STEP][PASSED] - check(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos")): Object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos' is checked
+
+2022-09-22 14:22:43 - [MESSAGE][PASSED] - Object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos' is checked
+
+2022-09-22 14:22:43 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa' is clicked on
+
+2022-09-22 14:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa' is clicked on
+
+2022-09-22 14:22:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-09-22 14:22:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-09-22 14:22:46 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa' is clicked on
+
+2022-09-22 14:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa' is clicked on
+
+2022-09-22 14:22:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:22:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa'
+
+2022-09-22 14:22:47 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:22:49 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:22:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:22:49 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa' is clicked on
+
+2022-09-22 14:22:50 - [TEST_STEP][PASSED] - waitForPageLoad(30): Wait for page load successfully
+
+2022-09-22 14:22:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-09-22 14:22:50 - [TEST_STEP][PASSED] - check(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos")): Object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos' is checked
+
+2022-09-22 14:22:51 - [MESSAGE][PASSED] - Object 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos' is checked
+
+2022-09-22 14:22:51 - [TEST_STEP][PASSED] - click(findTestObject("Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa")): Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa' is clicked on
+
+2022-09-22 14:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa' is clicked on
+
+2022-09-22 14:22:51 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2022-09-22 14:22:51 - [MESSAGE][PASSED] - Alert accepted
+
+2022-09-22 14:22:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-09-22 14:22:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-09-22 14:22:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-09-22 14:22:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-22 14:16:34 - [TEST_SUITE][FAILED] - Ajuste Credito: Test Cases/Ajuste credito - 50000 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with url: 'https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1837)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$5.call(Unknown Source)
+	at Ajuste credito - 50000.run(Ajuste credito - 50000:99)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663874178158.run(TempTestSuite1663874178158.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-09-22 14:16:34 - [TEST_SUITE][FAILED] - Ajuste Credito: Test Cases/Ajuste credito - 50000 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with url: 'https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1837)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$5.call(Unknown Source)
+	at Ajuste credito - 50000.run(Ajuste credito - 50000:99)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663874178158.run(TempTestSuite1663874178158.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.doCall(SwitchToWindowUrlKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword$_switchToWindowUrl_closure1.call(SwitchToWindowUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

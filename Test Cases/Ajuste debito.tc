@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Preparacion tarjeta venta - Ajuste debito</name>
+   <name>Ajuste debito</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>061ba95a-0b6e-44be-893a-8db496bed2f4</testCaseGuid>

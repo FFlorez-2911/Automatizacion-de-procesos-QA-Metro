@@ -1,0 +1,188 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ajuste Credito,Chrome 105.0.0.0,,,2022-09-22 15:48:31,2022-09-22 15:52:43,"4m - 12,621s",PASSED
+,,,,,,,
+Test Cases/Ajuste credito - 10000,Chrome 105.0.0.0,,,2022-09-22 15:48:31,2022-09-22 15:50:05,"1m - 33,475s",PASSED
+"openBrowser(""https://qabanco.civica.com.co/civica/index.aspx"")",Chrome 105.0.0.0,,,2022-09-22 15:48:33,2022-09-22 15:48:58,"25,544s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:48:58,2022-09-22 15:48:59,"0,801s",PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-22 15:48:59,2022-09-22 15:48:59,"0,249s",PASSED
+"focus(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin""))",Chrome 105.0.0.0,,,2022-09-22 15:48:59,2022-09-22 15:49:00,"0,989s",PASSED
+"setText(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin""), findTestData(""Usuarios/Usuarios login"").getValue(1, 1))",Chrome 105.0.0.0,,,2022-09-22 15:49:00,2022-09-22 15:49:09,"8,706s",PASSED
+"focus(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena""))",Chrome 105.0.0.0,,,2022-09-22 15:49:09,2022-09-22 15:49:10,"0,636s",PASSED
+"setText(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena""), findTestData(""Usuarios/Usuarios login"").getValue(2, 1))",Chrome 105.0.0.0,,,2022-09-22 15:49:10,2022-09-22 15:49:11,"0,957s",PASSED
+"click(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_btnOk""))",Chrome 105.0.0.0,,,2022-09-22 15:49:11,2022-09-22 15:49:17,"6,769s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:49:17,2022-09-22 15:49:17,"0,071s",PASSED
+"click(findTestObject(""Pagina inicial/Page_Metro de Medelln - Sea bienvenido/em_Adquisicin_bv""))",Chrome 105.0.0.0,,,2022-09-22 15:49:17,2022-09-22 15:49:18,"0,840s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:49:18,2022-09-22 15:49:18,"0,045s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medellin -  Adquisicin/a_Punto de Venta_adq""))",Chrome 105.0.0.0,,,2022-09-22 15:49:18,2022-09-22 15:49:19,"1,113s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:49:19,2022-09-22 15:49:19,"0,034s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Ajuste de Carga_pdva""))",Chrome 105.0.0.0,,,2022-09-22 15:49:19,2022-09-22 15:49:21,"1,776s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:49:21,2022-09-22 15:49:21,"0,053s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Nuevo Registro_pdva""))",Chrome 105.0.0.0,,,2022-09-22 15:49:21,2022-09-22 15:49:24,"2,450s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:49:24,2022-09-22 15:49:24,"0,038s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Apellidos_ctl00ContentPlaceHolder1btnBuscarUsu_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:49:24,2022-09-22 15:49:27,"2,793s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:49:27,2022-09-22 15:49:27,"0,031s",PASSED
+"switchToWindowUrl(""https://qabanco.civica.com.co/Civica/Usuarios/Registros/frmUsuariosPNTarjetaPopup.aspx?nombre=&cedula=&tarjeta="")",Chrome 105.0.0.0,,,2022-09-22 15:49:27,2022-09-22 15:49:27,"0,185s",PASSED
+"focus(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn""))",Chrome 105.0.0.0,,,2022-09-22 15:49:27,2022-09-22 15:49:28,"0,723s",PASSED
+"setText(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn""), ""1267161"")",Chrome 105.0.0.0,,,2022-09-22 15:49:28,2022-09-22 15:49:28,"0,887s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn""))",Chrome 105.0.0.0,,,2022-09-22 15:49:28,2022-09-22 15:49:31,"2,713s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/img_cpn""))",Chrome 105.0.0.0,,,2022-09-22 15:49:31,2022-09-22 15:49:32,"0,601s",PASSED
+"switchToWindowUrl(""https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx"")",Chrome 105.0.0.0,,,2022-09-22 15:49:32,2022-09-22 15:49:32,"0,122s",PASSED
+"click(findTestObject(""Page_MedeMe - Adqcion - PdV -  Ajuste credito/Chechk credito""))",Chrome 105.0.0.0,,,2022-09-22 15:49:32,2022-09-22 15:49:32,"0,562s",PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-22 15:49:32,2022-09-22 15:49:35,"2,106s",PASSED
+"focus(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:49:35,2022-09-22 15:49:35,"0,609s",PASSED
+"setText(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab""), ""10000"")",Chrome 105.0.0.0,,,2022-09-22 15:49:35,2022-09-22 15:49:36,"0,819s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:49:36,2022-09-22 15:49:37,"0,563s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab""), Keys.chord(ARROW_DOWN))",Chrome 105.0.0.0,,,2022-09-22 15:49:37,2022-09-22 15:49:37,"0,559s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab""), Keys.chord(ENTER))",Chrome 105.0.0.0,,,2022-09-22 15:49:37,2022-09-22 15:49:38,"0,584s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:49:38,2022-09-22 15:49:39,"1,318s",PASSED
+"setText(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab""), ""Prueba venta de tarjetas"")",Chrome 105.0.0.0,,,2022-09-22 15:49:39,2022-09-22 15:49:40,"0,866s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Operador Modificacin_ctl00ContentPlaceHolder1btnConfirmar_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:49:40,2022-09-22 15:49:43,"2,875s",PASSED
+"switchToWindowUrl(""https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx"")",Chrome 105.0.0.0,,,2022-09-22 15:49:43,2022-09-22 15:49:43,"0,193s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  Mensaje/input_Operacin efectuada con xito_btnOk_cpn""))",Chrome 105.0.0.0,,,2022-09-22 15:49:43,2022-09-22 15:49:44,"0,729s",PASSED
+"switchToWindowUrl(""https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx?Cod=0"")",Chrome 105.0.0.0,,,2022-09-22 15:49:44,2022-09-22 15:49:44,"0,126s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/a_Aprobacin Ajuste de Carga_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:49:44,2022-09-22 15:49:46,"2,044s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:49:46,2022-09-22 15:49:47,"0,739s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""), Keys.chord(ARROW_DOWN))",Chrome 105.0.0.0,,,2022-09-22 15:49:47,2022-09-22 15:49:47,"0,515s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""), Keys.chord(ENTER))",Chrome 105.0.0.0,,,2022-09-22 15:49:47,2022-09-22 15:49:48,"0,503s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:49:48,2022-09-22 15:49:49,"1,353s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:49:49,2022-09-22 15:49:49,"0,032s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:49:49,2022-09-22 15:49:50,"1,292s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:49:50,2022-09-22 15:49:50,"0,029s",PASSED
+"check(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos""))",Chrome 105.0.0.0,,,2022-09-22 15:49:50,2022-09-22 15:49:51,"0,712s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:49:51,2022-09-22 15:49:52,"0,724s",PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-22 15:49:52,2022-09-22 15:49:54,"2,014s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:49:54,2022-09-22 15:49:54,"0,548s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""), Keys.chord(ENTER))",Chrome 105.0.0.0,,,2022-09-22 15:49:54,2022-09-22 15:49:55,"0,552s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:49:55,2022-09-22 15:49:56,"1,304s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:49:56,2022-09-22 15:49:56,"0,031s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:49:56,2022-09-22 15:49:58,"1,594s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:49:58,2022-09-22 15:49:58,"0,041s",PASSED
+"check(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos""))",Chrome 105.0.0.0,,,2022-09-22 15:49:58,2022-09-22 15:49:58,"0,612s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:49:58,2022-09-22 15:49:59,"0,531s",PASSED
+acceptAlert(),Chrome 105.0.0.0,,,2022-09-22 15:49:59,2022-09-22 15:49:59,"0,068s",PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-22 15:49:59,2022-09-22 15:50:02,"3,010s",PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-22 15:50:02,2022-09-22 15:50:05,"2,856s",PASSED
+,,,,,,,
+Test Cases/Ajuste credito - 20000,Chrome 105.0.0.0,,,2022-09-22 15:50:05,2022-09-22 15:51:19,"1m - 14,071s",PASSED
+"openBrowser(""https://qabanco.civica.com.co/civica/index.aspx"")",Chrome 105.0.0.0,,,2022-09-22 15:50:06,2022-09-22 15:50:17,"11,504s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:50:17,2022-09-22 15:50:17,"0,038s",PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-22 15:50:17,2022-09-22 15:50:18,"0,155s",PASSED
+"focus(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin""))",Chrome 105.0.0.0,,,2022-09-22 15:50:18,2022-09-22 15:50:18,"0,509s",PASSED
+"setText(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin""), findTestData(""Usuarios/Usuarios login"").getValue(1, 1))",Chrome 105.0.0.0,,,2022-09-22 15:50:18,2022-09-22 15:50:19,"0,937s",PASSED
+"focus(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena""))",Chrome 105.0.0.0,,,2022-09-22 15:50:19,2022-09-22 15:50:20,"0,548s",PASSED
+"setText(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena""), findTestData(""Usuarios/Usuarios login"").getValue(2, 1))",Chrome 105.0.0.0,,,2022-09-22 15:50:20,2022-09-22 15:50:21,"0,989s",PASSED
+"click(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_btnOk""))",Chrome 105.0.0.0,,,2022-09-22 15:50:21,2022-09-22 15:50:27,"6,055s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:50:27,2022-09-22 15:50:27,"0,026s",PASSED
+"click(findTestObject(""Pagina inicial/Page_Metro de Medelln - Sea bienvenido/em_Adquisicin_bv""))",Chrome 105.0.0.0,,,2022-09-22 15:50:27,2022-09-22 15:50:28,"0,985s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:50:28,2022-09-22 15:50:28,"0,034s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medellin -  Adquisicin/a_Punto de Venta_adq""))",Chrome 105.0.0.0,,,2022-09-22 15:50:28,2022-09-22 15:50:29,"1,097s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:50:29,2022-09-22 15:50:29,"0,033s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Ajuste de Carga_pdva""))",Chrome 105.0.0.0,,,2022-09-22 15:50:29,2022-09-22 15:50:31,"1,810s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:50:31,2022-09-22 15:50:31,"0,038s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Nuevo Registro_pdva""))",Chrome 105.0.0.0,,,2022-09-22 15:50:31,2022-09-22 15:50:33,"2,297s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:50:33,2022-09-22 15:50:33,"0,035s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Apellidos_ctl00ContentPlaceHolder1btnBuscarUsu_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:50:33,2022-09-22 15:50:36,"2,813s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:50:36,2022-09-22 15:50:36,"0,034s",PASSED
+"switchToWindowUrl(""https://qabanco.civica.com.co/Civica/Usuarios/Registros/frmUsuariosPNTarjetaPopup.aspx?nombre=&cedula=&tarjeta="")",Chrome 105.0.0.0,,,2022-09-22 15:50:36,2022-09-22 15:50:36,"0,128s",PASSED
+"focus(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn""))",Chrome 105.0.0.0,,,2022-09-22 15:50:36,2022-09-22 15:50:37,"0,708s",PASSED
+"setText(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn""), ""8516299"")",Chrome 105.0.0.0,,,2022-09-22 15:50:37,2022-09-22 15:50:37,"0,851s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn""))",Chrome 105.0.0.0,,,2022-09-22 15:50:37,2022-09-22 15:50:39,"1,092s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/img_cpn""))",Chrome 105.0.0.0,,,2022-09-22 15:50:39,2022-09-22 15:50:39,"0,582s",PASSED
+"switchToWindowUrl(""https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx"")",Chrome 105.0.0.0,,,2022-09-22 15:50:39,2022-09-22 15:50:39,"0,094s",PASSED
+"click(findTestObject(""Page_MedeMe - Adqcion - PdV -  Ajuste credito/Chechk credito""))",Chrome 105.0.0.0,,,2022-09-22 15:50:39,2022-09-22 15:50:40,"0,604s",PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-22 15:50:40,2022-09-22 15:50:42,"2,011s",PASSED
+"focus(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:50:42,2022-09-22 15:50:42,"0,534s",PASSED
+"setText(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab""), ""20000"")",Chrome 105.0.0.0,,,2022-09-22 15:50:42,2022-09-22 15:50:43,"0,848s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:50:43,2022-09-22 15:50:44,"0,675s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab""), Keys.chord(ARROW_DOWN))",Chrome 105.0.0.0,,,2022-09-22 15:50:44,2022-09-22 15:50:44,"0,497s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab""), Keys.chord(ENTER))",Chrome 105.0.0.0,,,2022-09-22 15:50:44,2022-09-22 15:50:45,"0,557s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:50:45,2022-09-22 15:50:47,"1,634s",PASSED
+"setText(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab""), ""Prueba venta de tarjetas"")",Chrome 105.0.0.0,,,2022-09-22 15:50:47,2022-09-22 15:50:48,"0,921s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Operador Modificacin_ctl00ContentPlaceHolder1btnConfirmar_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:50:48,2022-09-22 15:50:50,"2,663s",PASSED
+"switchToWindowUrl(""https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx"")",Chrome 105.0.0.0,,,2022-09-22 15:50:50,2022-09-22 15:50:50,"0,195s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  Mensaje/input_Operacin efectuada con xito_btnOk_cpn""))",Chrome 105.0.0.0,,,2022-09-22 15:50:50,2022-09-22 15:50:51,"0,662s",PASSED
+"switchToWindowUrl(""https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx?Cod=0"")",Chrome 105.0.0.0,,,2022-09-22 15:50:51,2022-09-22 15:50:51,"0,082s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/a_Aprobacin Ajuste de Carga_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:50:51,2022-09-22 15:50:53,"1,618s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:50:53,2022-09-22 15:50:53,"0,507s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""), Keys.chord(ARROW_DOWN))",Chrome 105.0.0.0,,,2022-09-22 15:50:53,2022-09-22 15:50:54,"0,557s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""), Keys.chord(ENTER))",Chrome 105.0.0.0,,,2022-09-22 15:50:54,2022-09-22 15:50:54,"0,464s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:50:54,2022-09-22 15:50:56,"1,910s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:50:56,2022-09-22 15:50:56,"0,035s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:50:56,2022-09-22 15:51:06,"9,324s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:51:06,2022-09-22 15:51:06,"0,021s",PASSED
+"check(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos""))",Chrome 105.0.0.0,,,2022-09-22 15:51:06,2022-09-22 15:51:06,"0,572s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:51:06,2022-09-22 15:51:07,"0,533s",PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-22 15:51:07,2022-09-22 15:51:09,"2,016s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:51:09,2022-09-22 15:51:09,"0,510s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""), Keys.chord(ENTER))",Chrome 105.0.0.0,,,2022-09-22 15:51:09,2022-09-22 15:51:10,"0,449s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:51:10,2022-09-22 15:51:11,"1,357s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:51:11,2022-09-22 15:51:11,"0,029s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:51:11,2022-09-22 15:51:12,"1,360s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:51:12,2022-09-22 15:51:12,"0,033s",PASSED
+"check(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos""))",Chrome 105.0.0.0,,,2022-09-22 15:51:12,2022-09-22 15:51:13,"0,563s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:51:13,2022-09-22 15:51:13,"0,453s",PASSED
+acceptAlert(),Chrome 105.0.0.0,,,2022-09-22 15:51:13,2022-09-22 15:51:13,"0,025s",PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-22 15:51:13,2022-09-22 15:51:16,"3,014s",PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-22 15:51:16,2022-09-22 15:51:19,"2,494s",PASSED
+,,,,,,,
+Test Cases/Ajuste credito - 50000,Chrome 105.0.0.0,,,2022-09-22 15:51:19,2022-09-22 15:52:43,"1m - 24,232s",PASSED
+"openBrowser(""https://qabanco.civica.com.co/civica/index.aspx"")",Chrome 105.0.0.0,,,2022-09-22 15:51:20,2022-09-22 15:51:34,"14,093s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:51:34,2022-09-22 15:51:34,"0,052s",PASSED
+maximizeWindow(),Chrome 105.0.0.0,,,2022-09-22 15:51:34,2022-09-22 15:51:34,"0,155s",PASSED
+"focus(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin""))",Chrome 105.0.0.0,,,2022-09-22 15:51:34,2022-09-22 15:51:35,"0,537s",PASSED
+"setText(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Cdula usuario_txtLogin""), findTestData(""Usuarios/Usuarios login"").getValue(1, 1))",Chrome 105.0.0.0,,,2022-09-22 15:51:35,2022-09-22 15:51:36,"0,853s",PASSED
+"focus(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena""))",Chrome 105.0.0.0,,,2022-09-22 15:51:36,2022-09-22 15:51:36,"0,716s",PASSED
+"setText(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_txtSena""), findTestData(""Usuarios/Usuarios login"").getValue(2, 1))",Chrome 105.0.0.0,,,2022-09-22 15:51:36,2022-09-22 15:51:37,"1,016s",PASSED
+"click(findTestObject(""Inicio de sesion - Cívica Calidad/Inicio de sesion_Civica Calidad/input_Contrasea_btnOk""))",Chrome 105.0.0.0,,,2022-09-22 15:51:37,2022-09-22 15:51:43,"5,611s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:51:43,2022-09-22 15:51:43,"0,032s",PASSED
+"click(findTestObject(""Pagina inicial/Page_Metro de Medelln - Sea bienvenido/em_Adquisicin_bv""))",Chrome 105.0.0.0,,,2022-09-22 15:51:43,2022-09-22 15:51:44,"0,987s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:51:44,2022-09-22 15:51:44,"0,044s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medellin -  Adquisicin/a_Punto de Venta_adq""))",Chrome 105.0.0.0,,,2022-09-22 15:51:44,2022-09-22 15:51:45,"1,063s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:51:45,2022-09-22 15:51:45,"0,029s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Ajuste de Carga_pdva""))",Chrome 105.0.0.0,,,2022-09-22 15:51:45,2022-09-22 15:51:47,"1,754s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:51:47,2022-09-22 15:51:47,"0,144s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Punto de Venta -  Ajuste de Carga/a_Nuevo Registro_pdva""))",Chrome 105.0.0.0,,,2022-09-22 15:51:47,2022-09-22 15:51:49,"2,021s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:51:49,2022-09-22 15:51:49,"0,027s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Apellidos_ctl00ContentPlaceHolder1btnBuscarUsu_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:51:49,2022-09-22 15:51:52,"2,566s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:51:52,2022-09-22 15:51:52,"0,026s",PASSED
+"switchToWindowUrl(""https://qabanco.civica.com.co/Civica/Usuarios/Registros/frmUsuariosPNTarjetaPopup.aspx?nombre=&cedula=&tarjeta="")",Chrome 105.0.0.0,,,2022-09-22 15:51:52,2022-09-22 15:51:52,"0,133s",PASSED
+"focus(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn""))",Chrome 105.0.0.0,,,2022-09-22 15:51:52,2022-09-22 15:51:52,"0,513s",PASSED
+"setText(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_Nm. Tarjeta_txtNumeroTarjeta_cpn""), ""1267657"")",Chrome 105.0.0.0,,,2022-09-22 15:51:52,2022-09-22 15:51:53,"0,856s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/input_REGISTRO BLOQUEADO_btnBuscar_cpn""))",Chrome 105.0.0.0,,,2022-09-22 15:51:53,2022-09-22 15:51:55,"1,558s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  ConsulPN/img_cpn""))",Chrome 105.0.0.0,,,2022-09-22 15:51:55,2022-09-22 15:51:55,"0,606s",PASSED
+"switchToWindowUrl(""https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx"")",Chrome 105.0.0.0,,,2022-09-22 15:51:55,2022-09-22 15:51:56,"0,120s",PASSED
+"click(findTestObject(""Page_MedeMe - Adqcion - PdV -  Ajuste credito/Chechk credito""))",Chrome 105.0.0.0,,,2022-09-22 15:51:56,2022-09-22 15:51:56,"0,603s",PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-22 15:51:56,2022-09-22 15:51:58,"2,007s",PASSED
+"focus(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:51:58,2022-09-22 15:51:59,"0,537s",PASSED
+"setText(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Valor_ctl00ContentPlaceHolder1txtValor_pdvab""), ""50000"")",Chrome 105.0.0.0,,,2022-09-22 15:51:59,2022-09-22 15:52:00,"0,864s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:52:00,2022-09-22 15:52:00,"0,629s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab""), Keys.chord(ARROW_DOWN))",Chrome 105.0.0.0,,,2022-09-22 15:52:00,2022-09-22 15:52:01,"0,505s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/select_- Seleccione - Motivo_pdvab""), Keys.chord(ENTER))",Chrome 105.0.0.0,,,2022-09-22 15:52:01,2022-09-22 15:52:01,"0,484s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:52:01,2022-09-22 15:52:03,"1,929s",PASSED
+"setText(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/textarea_Caracteres restantes  1000_ctl00ContentPlaceHolder1txtDescripcion_pdvab""), ""Prueba venta de tarjetas"")",Chrome 105.0.0.0,,,2022-09-22 15:52:03,2022-09-22 15:52:04,"0,872s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/input_Operador Modificacin_ctl00ContentPlaceHolder1btnConfirmar_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:52:04,2022-09-22 15:52:07,"2,654s",PASSED
+"switchToWindowUrl(""https://qabanco.civica.com.co/Civica/Includes/frmMensagem.aspx"")",Chrome 105.0.0.0,,,2022-09-22 15:52:07,2022-09-22 15:52:07,"0,476s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro Medelln -  Mensaje/input_Operacin efectuada con xito_btnOk_cpn""))",Chrome 105.0.0.0,,,2022-09-22 15:52:07,2022-09-22 15:52:08,"0,674s",PASSED
+"switchToWindowUrl(""https://qabanco.civica.com.co/Civica/Adquisicion/PuntodeVenta/frmAjusteCargaDet.aspx?Cod=0"")",Chrome 105.0.0.0,,,2022-09-22 15:52:08,2022-09-22 15:52:08,"0,090s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicion - Punto de Venta -  Ajuste de Carga/a_Aprobacin Ajuste de Carga_pdvab""))",Chrome 105.0.0.0,,,2022-09-22 15:52:08,2022-09-22 15:52:09,"1,448s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:52:09,2022-09-22 15:52:10,"0,558s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""), Keys.chord(ARROW_DOWN))",Chrome 105.0.0.0,,,2022-09-22 15:52:10,2022-09-22 15:52:10,"0,510s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""), Keys.chord(ENTER))",Chrome 105.0.0.0,,,2022-09-22 15:52:10,2022-09-22 15:52:11,"0,549s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:52:11,2022-09-22 15:52:13,"1,773s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:52:13,2022-09-22 15:52:13,"0,029s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:52:13,2022-09-22 15:52:14,"1,337s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:52:14,2022-09-22 15:52:14,"0,023s",PASSED
+"check(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos""))",Chrome 105.0.0.0,,,2022-09-22 15:52:14,2022-09-22 15:52:15,"0,609s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:52:15,2022-09-22 15:52:16,"0,904s",PASSED
+delay(2),Chrome 105.0.0.0,,,2022-09-22 15:52:16,2022-09-22 15:52:18,"2,011s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:52:18,2022-09-22 15:52:19,"1,393s",PASSED
+"sendKeys(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/select_- Seleccione - Motivo Aprobacion_adqa""), Keys.chord(ENTER))",Chrome 105.0.0.0,,,2022-09-22 15:52:19,2022-09-22 15:52:20,"0,677s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:52:20,2022-09-22 15:52:21,"1,553s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:52:21,2022-09-22 15:52:21,"0,030s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input__ctl00ContentPlaceHolder1btnBuscar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:52:21,2022-09-22 15:52:23,"1,371s",PASSED
+waitForPageLoad(30),Chrome 105.0.0.0,,,2022-09-22 15:52:23,2022-09-22 15:52:23,"0,027s",PASSED
+"check(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/Aprobar_todos""))",Chrome 105.0.0.0,,,2022-09-22 15:52:23,2022-09-22 15:52:23,"0,603s",PASSED
+"click(findTestObject(""Consulta y ajuste de saldo/Page_Metro de Medelln - Adquisicin - Pdv -  AproAju Carga/input_registro(s) encontrado(s)_ctl00ContentPlaceHolder1btnAprobar_adqa""))",Chrome 105.0.0.0,,,2022-09-22 15:52:23,2022-09-22 15:52:24,"0,515s",PASSED
+acceptAlert(),Chrome 105.0.0.0,,,2022-09-22 15:52:24,2022-09-22 15:52:24,"0,027s",PASSED
+delay(3),Chrome 105.0.0.0,,,2022-09-22 15:52:24,2022-09-22 15:52:27,"3,006s",PASSED
+closeBrowser(),Chrome 105.0.0.0,,,2022-09-22 15:52:27,2022-09-22 15:52:43,"16,373s",PASSED
